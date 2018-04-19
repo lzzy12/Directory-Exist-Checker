@@ -11,7 +11,7 @@ MainWindow::MainWindow(QWidget *parent) :
     window->setLayout(grid);
     window->show();
     connect(location_box, SIGNAL(textChanged(QString)), SLOT(dirExists(QString)));
-
+    window->setWindowTitle("Directory-Checker");
 }
 
 MainWindow::~MainWindow()
