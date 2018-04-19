@@ -7,7 +7,6 @@ MainWindow::MainWindow(QWidget *parent) :
 {
     ui->setupUi(this);
     grid->addWidget(location_box, 0, 0);
-    grid->addWidget(check_button, 0, 1);
     grid->addWidget(status, 1, 0, 1, 2);
     window->setLayout(grid);
     window->show();

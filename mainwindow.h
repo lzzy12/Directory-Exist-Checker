@@ -3,7 +3,6 @@
 
 #include <QMainWindow>
 #include <QDir>
-#include <QPushButton>
 #include <QLineEdit>
 #include <QLabel>
 #include <QGridLayout>
@@ -30,7 +29,6 @@ private:
     QGridLayout *grid = new QGridLayout();
     QLabel *status = new QLabel("Unknown!");
     QLineEdit *location_box = new QLineEdit;
-    QPushButton *check_button = new QPushButton("Check");
 
 };
 
