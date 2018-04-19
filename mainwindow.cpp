@@ -20,7 +20,7 @@ MainWindow::~MainWindow()
     delete ui;
 }
 
-bool MainWindow::dirExists(QString x){
+void MainWindow::dirExists(QString x){
     QDir dir(x);
     if (dir.exists())
     {

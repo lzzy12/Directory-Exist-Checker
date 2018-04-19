@@ -23,7 +23,7 @@ public:
     ~MainWindow();
 
 private slots:
-    bool dirExists(QString x);
+    void dirExists(QString x);
 private:
     Ui::MainWindow *ui;
     QWidget *window = new QWidget;
